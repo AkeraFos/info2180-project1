@@ -19,18 +19,19 @@ header div{
    
 h1 {
     font-size: 18px;
-    float: left;
     margin-top:10px;
     margin-left:20%;
     margin-bottom: 10px;
+    float: left;
+   
 }
 ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
     margin-left: 50%;
     margin-top: 10px;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;     
 }
 
 li{
@@ -50,4 +51,216 @@ a:hover{
 /*Main Section
 ------------------*/
 
+/*Overview
+--------------*/
 
+.overview-hero{
+    display: flex;
+    background-color:#E2E8F0;
+    padding-top:30px;
+    padding-bottom: 30px;
+
+}
+
+.overview-hero-image img{
+    border-radius:20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right:25px;
+    float: left; 
+}
+
+/*Learn About
+--------------*/
+
+.learn-about{
+    width: 55%;
+    margin: auto;
+}
+
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+/* Card
+-----------*/
+
+.cards{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 15px;
+    margin-bottom:20px;
+}
+.card{ 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 2px 2px #888888;
+}
+.card img{
+    margin-left: 20%;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.card-body{
+    padding-left: 10px;
+}
+
+.card body h3{
+    font-size: 21px;
+    color: #48BB78;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+/*Testing Section
+--------*/
+
+.testing{
+    margin-top:5px;
+    padding-top:35px;
+    padding-bottom: 35px;
+    background-color: #4A5568;
+    color: white;
+}
+
+.testing .container{
+    display: flex;
+    margin: auto;
+    width: 55%;
+    padding:10px;
+}
+
+.testing p{
+    padding-right:5%;
+}
+
+.cta{
+    margin: auto;
+    width:50%;
+}
+
+.testing a{
+    text-transform: uppercase;
+    margin-left: 25%;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color:#48BB78;
+    border-radius: 5px;
+    
+}
+
+/* Recent Stories
+------*/
+.stories{
+    padding-top: 25px;
+    padding-bottom:25px;
+}
+
+.stories .container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width:60%;
+    padding: 15px;
+}
+
+.stories img{
+    float: left;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.stories p{
+    padding-right: 5%;
+    margin-bottom: 5px;
+}
+.stories h2{
+    color: #5A67DB;
+}
+
+.stories h2{
+    padding-left: 10px;
+}
+
+.stories h3{
+    font-size: 10px;
+    margin-right: 10%;
+}
+
+.stories a{
+    color:  #5A67DB;
+}
+
+.stories a{
+    text-decoration: none;
+    font-weight:bold;
+}
+
+/*Newsletter
+-------------*/
+
+.newsletter{
+    padding-top:5%;
+    padding-bottom:5%;
+    background-color:#48BB78;
+    color: white;
+}
+
+.newsletter .container{
+    margin: auto;
+    padding: 10px;
+    width: 45%;
+    align-content: center;
+  
+}
+
+.newsletter h3{
+    text-align: center;
+}
+
+.newsletter p{
+    padding-right: 10%;
+}
+
+.form-group{
+    float: left;
+    margin-right: 10px;
+}
+
+#email{
+    padding-left: 10px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn{
+    background-color: #5A67D8;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+/*Footer
+-----------*/
+
+footer{
+    display: grid;
+    background-color: #4A5568;
+    color: white;
+}
+
+footer .container{
+    padding-left: 10%;
+}
